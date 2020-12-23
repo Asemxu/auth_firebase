@@ -1,0 +1,23 @@
+.form__container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+}
+
+.form__container-content{
+    text-align: center;
+    margin:0 2rem 0 2rem;
+    border:solid 1px #bbb;
+    border-radius:15px;
+    box-shadow: 10px 10px 30px #bbb;
+}
+
+.header{
+    margin-top:1rem;
+}
+.form__login{
+    text-align:left;
+    padding:2rem;
+    display:block;
+}
