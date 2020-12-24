@@ -11,13 +11,11 @@ export default class formLogin extends React.Component{
                     <form onSubmit={this.props.onSubmit} className="form__login form"> 
                         <div className="form-group">
                             <label htmlFor="email">Correo Electrónico</label>
-                            <input type="email" autoComplete="username" className="form-control" id="email" name="email" placeholder="Ingrese su Correo" required/>
-                            <small id="emailError" className="form-text text-muted"></small>
+                            <input type="email" autoComplete="username" className="form-control" id="email" name="email" placeholder="Ingrese su Correo" />
                         </div>
                         <div className="form-group">
                             <label htmlFor="password">Contraseña</label>
-                            <input type="password" autoComplete="current-password" className="form-control" id="password" name="password" required placeholder="Ingrese su Contraseña"/>
-                            <small id="passError" className="form-text text-muted"></small>
+                            <input type="password" autoComplete="current-password" className="form-control" id="password" name="password"  placeholder="Ingrese su Contraseña"/>
                         </div>
                         <input type="submit" className="btn btn-primary mb-4 w-100" value="Ingresar"/>
                     </form>
